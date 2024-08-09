@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- HEADER-->
+
+    <div class="header flex items-center justify-between  bg-black w-full h-[4.5rem] ">
+
+        <div class="h-[4.3rem] w-40 relative -top-[0.8px]">
+            <img src="logo.png" alt="Logo" class="h-full w-full ">
+        </div>
+
+        <div class="flex items-center gap-6 ">
+
+            <div class="flex gap-4">
+                <!-- <i class="fa-solid fa-magnifying-glass text-white"></i> -->
+                <input
+                    class="rounded-[4px] inpt  h-[25px] w-[192px] border-gray-300 bg-gray-100 text-gray-800 placeholder-gray-600 p-2.5"
+                    placeholder="Username">
+                <input
+                    class="rounded-[4px] inpt h-[25px] w-[192px] border-gray-300 bg-gray-100 text-gray-800 placeholder-gray-600 p-2.5"
+                    placeholder="Password">
+            </div>
+
+            <div class="w-[100px] h-[25px] mr-9">
+                <div class="bg-[#d31010] rounded-[4px] -pt-1 font-semibold w-[108px] text-white h-full pl-5 gap-5">Login
+                    <i class="fa-solid fa-right-to-bracket small-icon pl-1"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- headings -->
+    <div class="headingsset flex relative -top-[2px] h-[1.9rem] bg-gradient-to-b from-[#FD7B36] to-[#FD4327] ">
+        <div class="headings font-bold text-white ml-9 pt-[6px] pr-4 hover:underline cursor-pointer">Home</div>
+        <div class="headings font-bold  ml-1 m-1 pt-[2px] pr-3 hover:underline cursor-pointer">In-Play</div>
+        <div class="headings font-bold  ml-1 m-1 pt-[2px] pr-3 hover:underline cursor-pointer">Multi Markets</div>
+        <div class="headings font-bold  ml-1 m-1 pt-[2px] pr-3 hover:underline cursor-pointer">Cricket</div>
+        <div class="headings font-bold  ml-1 m-1 pt-[2px] pr-3 hover:underline cursor-pointer">Tennis</div>
+        <div class="headings font-bold  ml-1 m-1 pt-[2px] pr-3 hover:underline cursor-pointer">Soccer</div>
+        <div class="headings font-bold  ml-1 m-1 pt-[2px] pr-3 hover:underline cursor-pointer">Horce Racing</div>
+        <div class="headings font-bold  ml-1 m-1 pt-[2px] pr-3 hover:underline cursor-pointer">Greyhound Racing</div>
+        <div class="headings font-bold  ml-1 m-1 pt-[2px] pr-3 hover:underline cursor-pointer">Basket Ball</div>
+        <div class="headings font-bold  ml-1 m-1 pt-[2px] pr-3 hover:underline cursor-pointer">Lottery</div>
+        <div class="headings font-bold  ml-1 m-1 pt-[2px] pr-3 hover:underline cursor-pointer">Live Casino</div>
+        <div class="headings font-bold  ml-1 m-1 pt-[2px] pr-3 hover:underline cursor-pointer">Virtual Sports</div>
+        <div class="headings font-bold  ml-1 m-1 pt-[2px] pr-3 hover:underline cursor-pointer">Tips & Preview</div>
+    </div>
+    <!-- headings -->
+
+
+
+    <!-- Landings page -->
+    <div class="parentpage flex items-center justify-between relative -top-[2px]">
+        <!-- Page 1 -->
+        <div class=" pageone h-screen w-[25.6vw] ">
+            <div
+                class=" font-bold headings ml-5 flex items-center justify-between p-2  bg-black text-white h-[25px] w-[240px] mr-[8px] ">
+                <i class="fa-solid fa-ellipsis-vertical text-white icon"></i>Sports
+            </div>
+
+            <div
+                class="toggles  hover:bg-slate-100 cursor-pointer hover:text-[#83AE4B] relative -top-[4.7px] ml-5 mt-[0.10rem] flex items-center justify-between p-4 h-[29px] w-[240px] mr-[8px] ">
+                Cricket <i class="fa-solid fa-greater-than text-[#83AE4B]"></i>
+            </div>
+
+            <div
+                class="toggles  hover:bg-slate-100 cursor-pointer hover:text-[#83AE4B] relative -top-[4.7px] ml-5 mt-[0.10rem] flex items-center justify-between p-4 h-[29px] w-[240px] mr-[8px] ">
+                Tennis <i class="fa-solid fa-greater-than text-[#83AE4B]"></i>
+            </div>
+            <div
+                class="toggles  hover:bg-slate-100 cursor-pointer hover:text-[#83AE4B] relative -top-[4.7px] ml-5 mt-[0.10rem] flex items-center justify-between p-4 h-[29px] w-[240px] mr-[8px] ">
+                Casino <i class="fa-solid fa-greater-than text-[#83AE4B]"></i>
+            </div>
+            <div
+                class="toggles  hover:bg-slate-100 cursor-pointer hover:text-[#83AE4B] relative -top-[4.7px] ml-5 mt-[0.10rem] flex items-center justify-between p-4 h-[29px] w-[240px] mr-[8px] ">
+                Soccer <i class="fa-solid fa-greater-than text-[#83AE4B]"></i>
+            </div>
+            <div
+                class="toggles  hover:bg-slate-100 cursor-pointer hover:text-[#83AE4B] relative -top-[4.7px] ml-5 mt-[0.10rem] flex items-center justify-between p-4 h-[29px] w-[240px] mr-[8px] ">
+                Horse Racing <i class="fa-solid fa-greater-than text-[#83AE4B]"></i>
+            </div>
+            <div
+                class="toggles  hover:bg-slate-100 cursor-pointer hover:text-[#83AE4B] relative -top-[4.7px] ml-5 mt-[0.10rem] flex items-center justify-between p-4 h-[29px] w-[240px] mr-[8px] ">
+                Greyhound Racing <i class="fa-solid fa-greater-than text-[#83AE4B]"></i>
+            </div>
+            <div
+                class="toggles  hover:bg-slate-100 cursor-pointer hover:text-[#83AE4B] relative -top-[4.7px] ml-5 mt-[0.10rem] flex items-center justify-between p-4 h-[29px] w-[240px] mr-[8px] ">
+                BaskerBall <i class="fa-solid fa-greater-than text-[#83AE4B]"></i>
+            </div>
+            <div
+                class="toggles  hover:bg-slate-100 cursor-pointer hover:text-[#83AE4B] relative -top-[4.7px] ml-5 mt-[0.10rem] flex items-center justify-between p-4 h-[29px] w-[240px] mr-[8px] ">
+                Lottery <i class="fa-solid fa-greater-than text-[#83AE4B]"></i>
+            </div>
+
+
+
+        </div>
+
+
+        <!-- Page 2 -->
+
+        <div class="pagetwo w-[73vw] h-screen ">
+
+            <div class="img-parent h-[190px] w-[100%] ">
+                <img src="main.jpg" class="img-child  object-cover h-full w-full">
+                
+            </div>
+
+            <div class="relative">
+                <div class="landings h-[3rem]  bg-gradient-to-b from-[#FD7B36] to-[#FD4327]">
+                    Higlights
+                </div>
+                <div class="absolute flex items-center bottom-[1.3px]">
+                    <div class="landingis h-5 w-20 bg-[#DDDCD6] -md pl-5  ">Cricket</div>
+                    <div class=" mianlandings h-5 w-20 bg-[#284252] rounded-xl pl-5 ">Soccer</div>
+                    <div class=" mianlandings h-5 w-20 bg-[#284252] rounded-xl pl-5 ">Tennis</div>
+                </div>
+            </div>
+
+            <div class="childder h-5 bg-[#DDDCD6] flex items-end justify-end pr-24 gap-[7rem]">
+                <div>1</div>
+                <div>x</div>
+                <div>2</div>
+
+            </div>
+
+
+
+            <div class="com h-11 flex items-center justify-between">
+
+                <div class="hundered pl-3 w-[248px] font-bold text-[14px] text-[#3535fc]">The Hundered
+                    -Mens -Winner <span class="text-gray-500">29-7-24 1:30</span>
+                </div>
+
+                <div class="innerdiv w-[378px] flex items-end justify-end ml-10 gap-[2rem] ">
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">8.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">4.75</div>
+                    </div>
+
+
+                </div>
+
+                <i class="fa-solid fa-thumbtack icons"></i>
+
+            </div>
+
+            <div class="com h-11 flex items-center justify-between">
+
+                <div class="hundered pl-3 w-[248px] font-bold text-[14px] text-[#3535fc]">The Hundered
+                    -Mens -Winner <span class="text-gray-500">29-7-24 1:30</span>
+                </div>
+
+                <div class="innerdiv w-[378px] flex items-end justify-end ml-10 gap-[2rem] ">
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">8.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">4.75</div>
+                    </div>
+
+
+                </div>
+
+                <i class="fa-solid fa-thumbtack icons"></i>
+
+            </div>
+
+
+            <div class="com h-11 flex items-center justify-between">
+
+                <div class="hundered pl-3 w-[248px] font-bold text-[14px] text-[#3535fc]">The Hundered
+                    -Mens -Winner <span class="text-gray-500">29-7-24 1:30</span>
+                </div>
+
+                <div class="innerdiv w-[378px] flex items-end justify-end ml-10 gap-[2rem] ">
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">8.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">4.75</div>
+                    </div>
+
+
+                </div>
+
+                <i class="fa-solid fa-thumbtack icons"></i>
+
+            </div>
+
+
+            <div class="com h-11 flex items-center justify-between">
+
+                <div class="hundered pl-3 w-[248px] font-bold text-[14px] text-[#3535fc]">The Hundered
+                    -Mens -Winner <span class="text-gray-500">29-7-24 1:30</span>
+                </div>
+
+                <div class="innerdiv w-[378px] flex items-end justify-end ml-10 gap-[2rem] ">
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">8.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">4.75</div>
+                    </div>
+
+
+                </div>
+
+                <i class="fa-solid fa-thumbtack icons"></i>
+
+            </div>
+
+
+            <div class="com h-11 flex items-center justify-between">
+
+                <div class="hundered pl-3 w-[248px] font-bold text-[14px] text-[#3535fc]">The Hundered
+                    -Mens -Winner <span class="text-gray-500">29-7-24 1:30</span>
+                </div>
+
+                <div class="innerdiv w-[378px] flex items-end justify-end ml-10 gap-[2rem] ">
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">8.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">4.75</div>
+                    </div>
+
+
+                </div>
+
+                <i class="fa-solid fa-thumbtack icons"></i>
+
+            </div>
+
+            <div class="com h-11 flex items-center justify-between">
+
+                <div class="hundered pl-3 w-[248px] font-bold text-[14px] text-[#3535fc]">The Hundered
+                    -Mens -Winner <span class="text-gray-500">29-7-24 1:30</span>
+                </div>
+
+                <div class="innerdiv w-[378px] flex items-end justify-end ml-10 gap-[2rem] ">
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">8.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">4.75</div>
+                    </div>
+
+
+                </div>
+
+                <i class="fa-solid fa-thumbtack icons"></i>
+
+            </div>
+
+
+            <div class="com h-11 flex items-center justify-between">
+
+                <div class="hundered pl-3 w-[248px] font-bold text-[14px] text-[#3535fc]">The Hundered
+                    -Mens -Winner <span class="text-gray-500">29-7-24 1:30</span>
+                </div>
+
+                <div class="innerdiv w-[378px] flex items-end justify-end ml-10 gap-[2rem] ">
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">8.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">3.75</div>
+                    </div>
+
+                    <div class="flex items-center justify-center ">
+                        <div class="h-5 w-12 bg-[#72BBEF] text-black pl-3 pt-0">3.3</div>
+                        <div class="h-5 w-12 bg-[#FAA9BA] text-black pl-3 pt-0">4.75</div>
+                    </div>
+
+
+                </div>
+
+                
+
+                <i class="fa-solid fa-thumbtack icons"></i>
+
+            </div>
+
+
+            <div class="bg-black h-[35px] mt-[26px] flex items-center overflow-x-auto scrollbar-hide">
+                <div class="flex items-center space-x-2">
+                    <div class="w-20 rounded-xl pt-1 pl-1 ml-2 bg-gradient-to-b from-[#FD7B36] to-[#FD4327] h-[30px]">
+                        POPULAR
+                    </div>
+                    <div class="dics">TEEN PATI</div>
+                    <div class="dics">LUCKY 7</div>
+                    <div class="dics">DRAGON TRIGEER</div>
+                    <div class="dics">BACCART</div>
+                    <div class="dics">ANDHAR BAHAR</div>
+                    <div class="dics">POKKER</div>
+                    <div class="dics ">BOLLYWOOD</div>
+                </div>
+            </div>
+            
+
+            <!-- page 2 card session -->
+
+            <div class="flex items-center justify-between gap-3 flex-wrap ">
+
+                <div data-bs-toggle="modal" data-bs-target="#ageconfirmationModalNew"
+                    class="ml-4  mt-[3rem]  h-[110px] w-[140px] col col-span-4 md:col-span-3 sm:col-span-3 xl:col-span-3 cursor-pointer ">
+                    <div class="relative">
+                        <div class="clip"></div>
+                        <div class="clip2">
+                            <img src="no" class="casino_sprite casino-fastDragonTiger">
+                        </div>
+                    </div>
+                    <div class="casinoTitle">20-20 TEENPATI</div>
+                </div>
+
+
+                <div data-bs-toggle="modal" data-bs-target="#ageconfirmationModalNew"
+                    class="ml-4 mt-[3rem]  h-[110px] w-[140px] col col-span-4 md:col-span-3 sm:col-span-3 xl:col-span-3 cursor-pointer ">
+                    <div class="relative">
+                        <div class="clip"></div>
+                        <div class="clip2">
+                            <img src="no" class="casino_sprite casino-fastDragonTiger">
+                        </div>
+                    </div>
+                    <div class="casinoTitle">LUCKY7-A</div>
+                </div>
+
+
+                <div data-bs-toggle="modal" data-bs-target="#ageconfirmationModalNew"
+                    class="ml-4 mt-[3rem]  h-[110px] w-[140px] col col-span-4 md:col-span-3 sm:col-span-3 xl:col-span-3 cursor-pointer ">
+                    <div class="relative">
+                        <div class="clip"></div>
+                        <div class="clip2">
+                            <img src="no" class="casino_sprite casino-fastDragonTiger">
+                        </div>
+                    </div>
+                    <div class="casinoTitle">20-20 DRAGONTRIGER</div>
+                </div>
+
+
+
+                <div data-bs-toggle="modal" data-bs-target="#ageconfirmationModalNew"
+                    class="ml-4 mt-[3rem]  h-[110px] w-[140px] col col-span-4 md:col-span-3 sm:col-span-3 xl:col-span-3 cursor-pointer ">
+                    <div class="relative">
+                        <div class="clip"></div>
+                        <div class="clip2">
+                            <img src="no" class="casino_sprite casino-fastDragonTiger">
+                        </div>
+                    </div>
+                    <div class="casinoTitle">FAST DRAGON TIGER</div>
+                </div>
+
+
+                <div data-bs-toggle="modal" data-bs-target="#ageconfirmationModalNew"
+                    class="ml-4 mt-[3rem]  h-[110px] w-[140px] col col-span-4 md:col-span-3 sm:col-span-3 xl:col-span-3 cursor-pointer ">
+                    <div class="relative">
+                        <div class="clip"></div>
+                        <div class="clip2">
+                            <img src="no" class="casino_sprite casino-fastDragonTiger">
+                        </div>
+                    </div>
+                    <div class="casinoTitle">FAST DRAGON TIGER</div>
+                </div>
+
+
+                <div data-bs-toggle="modal" data-bs-target="#ageconfirmationModalNew"
+                    class="ml-4 mt-[3rem]  h-[110px] w-[140px] col col-span-4 md:col-span-3 sm:col-span-3 xl:col-span-3 cursor-pointer ">
+                    <div class="relative">
+                        <div class="clip"></div>
+                        <div class="clip2">
+                            <img src="no" class="casino_sprite casino-fastDragonTiger">
+                        </div>
+                    </div>
+                    <div class="casinoTitle">FAST DRAGON TIGER</div>
+                </div>
+
+
+                <div data-bs-toggle="modal" data-bs-target="#ageconfirmationModalNew"
+                    class="ml-4 mt-[3rem]  h-[110px] w-[140px] col col-span-4 md:col-span-3 sm:col-span-3 xl:col-span-3 cursor-pointer ">
+                    <div class="relative">
+                        <div class="clip"></div>
+                        <div class="clip2">
+                            <img src="no" class="casino_sprite casino-fastDragonTiger">
+                        </div>
+                    </div>
+                    <div class="casinoTitle">FAST DRAGON TIGER</div>
+                </div>
+
+                <div data-bs-toggle="modal" data-bs-target="#ageconfirmationModalNew"
+                    class="ml-4 mt-[3rem]  h-[110px] w-[140px] col col-span-4 md:col-span-3 sm:col-span-3 xl:col-span-3 cursor-pointer ">
+                    <div class="relative">
+                        <div class="clip"></div>
+                        <div class="clip2">
+                            <img src="no" class="casino_sprite casino-fastDragonTiger">
+                        </div>
+                    </div>
+                    <div class="casinoTitle">FAST DRAGON TIGER</div>
+                </div>
+
+            </div>
+
+
+            <div class="free"></div>
+
+
+            <div class="footer mt-3 flex items-center justify-center gap-3 flex-wrap">
+                <div>Privacy Policy</div>
+                <div class="footer-child "></div>
+                <div>KYC</div>
+                <div class="footer-child "></div>
+                <div>Terms and Conditions</div>
+                <div class="footer-child "></div>
+                <div>Rules and Regulations</div>
+                <div class="footer-child "></div>
+                <div>Responsible Gambling</div>
+
+
+            </div>
+
+
+<div class="end bg-red-300 h-[45px]">
+    d
+</div>
+
+
+        </div>
+
+
+
+        <!-- page 3 -->
+
+        <div class="pagethree w-[33.5vw] border-1 border-l-gray-900 page  h-screen">
+            <div class="mi bg-black text-white  h-[28px] rounded-sm pt-1 font-bold">Open Bets</div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
